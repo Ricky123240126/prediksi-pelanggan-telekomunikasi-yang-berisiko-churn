@@ -1,0 +1,53 @@
+{
+    "ROC_AUC": 0.841501976284585,
+    "PR_AUC": 0.6325016828753636,
+    "Recall": 0.7272727272727273,
+    "Precision": 0.5396825396825397,
+    "F1": 0.6195899772209568,
+    "Accuracy": 0.7629524485450674,
+    "Threshold": 0.5700000000000001,
+    "Test_Set_Size": 1409,
+    "Churn_Cases": 374,
+    "Feature_Importance_Top_10": [
+        {
+            "feature": "tenure",
+            "importance": 0.0770759403832505
+        },
+        {
+            "feature": "MonthlyCharges",
+            "importance": 0.03378282469836762
+        },
+        {
+            "feature": "InternetService",
+            "importance": 0.016110716820439998
+        },
+        {
+            "feature": "TotalCharges",
+            "importance": 0.007665010645848092
+        },
+        {
+            "feature": "Contract",
+            "importance": 0.004329311568488259
+        },
+        {
+            "feature": "OnlineSecurity",
+            "importance": 0.0027679205110006876
+        },
+        {
+            "feature": "PaymentMethod",
+            "importance": 0.0020581973030517897
+        },
+        {
+            "feature": "StreamingMovies",
+            "importance": 0.0019162526614620145
+        },
+        {
+            "feature": "MultipleLines",
+            "importance": 0.0012775017743079874
+        },
+        {
+            "feature": "StreamingTV",
+            "importance": 0.0011355571327182124
+        }
+    ]
+}

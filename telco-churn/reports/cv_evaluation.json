@@ -1,0 +1,45 @@
+{
+    "cv_results": {
+        "Logistic Regression": {
+            "roc_auc_mean": 0.845993938597194,
+            "roc_auc_std": 0.012393895200642933,
+            "pr_auc_mean": 0.6600746832510516,
+            "pr_auc_std": 0.019564980289519432,
+            "recall_mean": 0.8013377926421403,
+            "recall_std": 0.037932968237479145,
+            "f1_mean": 0.6282495532217147,
+            "f1_std": 0.023137004537882363,
+            "accuracy_mean": 0.7484929101766585,
+            "accuracy_std": 0.015142660930829329
+        },
+        "Random Forest": {
+            "roc_auc_mean": 0.8216240060590584,
+            "roc_auc_std": 0.011347706851601228,
+            "pr_auc_mean": 0.60071989789008,
+            "pr_auc_std": 0.029506233158851897,
+            "recall_mean": 0.6421404682274248,
+            "recall_std": 0.02968875052999616,
+            "f1_mean": 0.6025117086586222,
+            "f1_std": 0.024188275383932322,
+            "accuracy_mean": 0.7752950743970459,
+            "accuracy_std": 0.012578609046824764
+        },
+        "XGBoost": {
+            "roc_auc_mean": 0.8245543631478055,
+            "roc_auc_std": 0.009284497537618367,
+            "pr_auc_mean": 0.6232426985774566,
+            "pr_auc_std": 0.01854873804951616,
+            "recall_mean": 0.6642140468227424,
+            "recall_std": 0.027055181827634344,
+            "f1_mean": 0.6087074984487607,
+            "f1_std": 0.025268502690413013,
+            "accuracy_mean": 0.7733436196318052,
+            "accuracy_std": 0.015372371822779833
+        }
+    },
+    "best_model": "Logistic Regression",
+    "best_params": {
+        "classifier__C": 1.0
+    },
+    "optimal_threshold": 0.5700000000000001
+}
